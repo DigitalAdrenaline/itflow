@@ -382,7 +382,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-user"></i></span>
                     </div>
-                    <input type="text" class="form-control" name="username" placeholder="Database User" autofocus required>
+                    <input type="text" class="form-control" name="username" value="root" placeholder="Database User" autofocus required>
                   </div>
                 </div>
 
@@ -392,7 +392,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-lock"></i></span>
                     </div>
-                    <input type="password" class="form-control" name="password" placeholder="Database Password" required>
+                    <input type="password" class="form-control" name="password" value="root" placeholder="Database Password" required>
                   </div>
                 </div>
 
@@ -402,7 +402,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-database"></i></span>
                     </div>
-                    <input type="text" class="form-control" name="database" placeholder="Database Name" required>
+                    <input type="text" class="form-control" name="database" value="itflow" placeholder="Database Name" required>
                   </div>
                 </div>
 
@@ -412,7 +412,7 @@ if(isset($_POST['add_company_settings'])){
                     <div class="input-group-prepend">
                       <span class="input-group-text"><i class="fa fa-fw fa-server"></i></span>
                     </div>
-                    <input type="text" class="form-control" name="host" value="localhost" placeholder="Database Host" required>
+                    <input type="text" class="form-control" name="host" value="mysql" placeholder="Database Host" required>
                   </div>
                 </div>
 
